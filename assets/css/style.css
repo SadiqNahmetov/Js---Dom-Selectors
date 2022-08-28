@@ -1,0 +1,25 @@
+.test{
+    background-color: red;
+}
+
+.active-head{
+    background-color: green;
+    color: white;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.inActive-head{
+    background-color: rgb(213, 37, 21);
+    color: white;
+    border: 1px solid red;
+    padding: 10px;
+
+}
+
+.icon{
+  float: right;
+  cursor: pointer;
+  padding: 5px;
+  color: red;
+}

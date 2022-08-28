@@ -1,0 +1,55 @@
+.nums {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .nums > input {
+    width: 27%;
+  }
+  
+  .operators-basic, .operators > div {
+    display: flex;
+    background: red;
+    height: 39px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 9px;
+   
+  }
+  
+  .operators {
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+    margin-bottom: 23px;
+    cursor: pointer;
+    -moz-column-gap: 20px;
+     column-gap: 20px;
+   
+  }
+  .operators .add {
+    background-color: rgb(80, 137, 159);
+  }
+  .operators .subtract {
+    background-color: rgb(193, 23, 23);
+  }
+  .operators .multiply {
+    background-color: green;
+  }
+  .operators .divide {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .result {
+    display: flex;
+    border: 1px solid;
+    color: black;
+    width: 42%;
+    margin: auto;
+    align-items: center;
+    height: 31px;
+   
+  }
